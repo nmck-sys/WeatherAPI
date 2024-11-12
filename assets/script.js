@@ -1,0 +1,1 @@
+const searchFormEl = document.querySelector('#search-form');

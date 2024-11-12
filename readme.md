@@ -10,4 +10,5 @@ Credits
 
 Developer: Noah McKinzie
 
-Link to Github:
+Link to Github: https://github.com/nmck-sys/WeatherAPI
+
