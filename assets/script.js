@@ -68,7 +68,8 @@ const handleSearchFormSubmit = (event) => {
     event.preventDefault();
     const city = searchBar.value.trim();
     if (city) {
-        grabWeather(city); // Fetch weather and forecast for the city
+        grabWeather(city);
+        grabForecast(city);
         searchBar.value = ''
     }
 }
