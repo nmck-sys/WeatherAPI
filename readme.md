@@ -12,3 +12,5 @@ Developer: Noah McKinzie
 
 Link to Github: https://github.com/nmck-sys/WeatherAPI
 
+Link to website: https://nmck-sys.github.io/WeatherAPI/
+

@@ -47,8 +47,8 @@ function showForecast(data) {
         if (item.dt_txt.includes('12:00:00')) {
             currentForecast.innerHTML += `
                 <div class="forecast-item">
+                <img src="https://openweathermap.org/img/wn/${item.weather[0].icon}.png">
                     <p><strong>${new Date(item.dt_txt).toLocaleDateString()}</strong></p>
-                    <img src="https://openweathermap.org/img/wn/${item.weather[0].icon}.png" alt="${item.weather[0].description}">
                     <p>Temperature: ${item.main.temp}°C</p>
                     <p>Condition: ${item.weather[0].description}</p>
                 </div>

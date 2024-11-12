@@ -1,0 +1,55 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    background-color: #0d0574;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.weatherDisplay {
+    border: 2px solid black;
+    padding: 10px 0;
+}
+
+h2 {
+    flex: 1;
+    padding: 10px;
+    margin: 0;
+    border-right: 1px;
+}
+
+h2 p {
+    margin: 0 0 10px;
+}
+
+h3 {
+    flex: 1;
+    padding: 10px;
+    margin: 0;
+}
+
+
+form {
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 8px;
+    background-color: #1170dd;
+    color: white;
+}

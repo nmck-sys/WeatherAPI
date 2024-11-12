@@ -14,12 +14,19 @@
 
 <body>
     <h1 class="text-primary">Weather API Dashboard</h1>
+    <div class="container">
+    <h2>
+        <p>Search for a City:</p>
     <form id="searchBar">
-        <input placeholder="search your city" type="text" id="textEntry">
+        <input placeholder="San Diego" type="text" id="textEntry">
         <button type="submit">Click me for the weather</button>
     </form>
     <div class="weatherDisplay" id="weatherNow"></div>
+</h2>
+<h3>
     <div class="weatherForcast" id="giveForecast"></div>
+</h3>
+</div>
     <div class="weatherHistory" id="giveHistory"></div>
 
     <script src="./assets/script.js"></script>
