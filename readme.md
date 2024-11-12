@@ -6,7 +6,7 @@ The purpose of this application was to create a weather app that uses a Weather 
 
 ## Table of Contents
 
-![Screenshot of deployed application](WeatherAPI.jpg)
+![Screenshot of deployed application](./assets/WeatherAPI.jpg)
 
 Credits
 
