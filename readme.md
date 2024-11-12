@@ -6,6 +6,8 @@ The purpose of this application was to create a weather app that uses a Weather 
 
 ## Table of Contents
 
+![Screenshot of deployed application](WeatherAPI.jpg)
+
 Credits
 
 Developer: Noah McKinzie
